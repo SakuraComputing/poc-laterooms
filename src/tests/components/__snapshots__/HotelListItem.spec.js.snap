@@ -28,12 +28,19 @@ ShallowWrapper {
     "props": Object {
       "children": Array [
         <h3>
+          Hotel Name: 
           hotelone
         </h3>,
         <div>
+          Star Rating: 
           5
         </div>,
+        <div>
+          Facilities Include: 
+          car park,pool
+        </div>,
       ],
+      "className": "hotel-box",
     },
     "ref": null,
     "rendered": Array [
@@ -42,10 +49,16 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": "hotelone",
+          "children": Array [
+            "Hotel Name: ",
+            "hotelone",
+          ],
         },
         "ref": null,
-        "rendered": "hotelone",
+        "rendered": Array [
+          "Hotel Name: ",
+          "hotelone",
+        ],
         "type": "h3",
       },
       Object {
@@ -53,10 +66,33 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": 5,
+          "children": Array [
+            "Star Rating: ",
+            5,
+          ],
         },
         "ref": null,
-        "rendered": 5,
+        "rendered": Array [
+          "Star Rating: ",
+          5,
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "Facilities Include: ",
+            "car park,pool",
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          "Facilities Include: ",
+          "car park,pool",
+        ],
         "type": "div",
       },
     ],
@@ -70,12 +106,19 @@ ShallowWrapper {
       "props": Object {
         "children": Array [
           <h3>
+            Hotel Name: 
             hotelone
           </h3>,
           <div>
+            Star Rating: 
             5
           </div>,
+          <div>
+            Facilities Include: 
+            car park,pool
+          </div>,
         ],
+        "className": "hotel-box",
       },
       "ref": null,
       "rendered": Array [
@@ -84,10 +127,16 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": "hotelone",
+            "children": Array [
+              "Hotel Name: ",
+              "hotelone",
+            ],
           },
           "ref": null,
-          "rendered": "hotelone",
+          "rendered": Array [
+            "Hotel Name: ",
+            "hotelone",
+          ],
           "type": "h3",
         },
         Object {
@@ -95,10 +144,33 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": 5,
+            "children": Array [
+              "Star Rating: ",
+              5,
+            ],
           },
           "ref": null,
-          "rendered": 5,
+          "rendered": Array [
+            "Star Rating: ",
+            5,
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "Facilities Include: ",
+              "car park,pool",
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            "Facilities Include: ",
+            "car park,pool",
+          ],
           "type": "div",
         },
       ],

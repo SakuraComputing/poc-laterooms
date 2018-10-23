@@ -1,13 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
-import AppRouter, { history } from './routers/AppRouter';
+import AppRouter from './routers/AppRouter';
 import getAppStore from './store/store';
 import { setHotels } from './actions/hotels';
 import hotels from './fixtures/hotels';
 
 import './index.css';
-import App from './App';
 import * as serviceWorker from './serviceWorker';
 
 
