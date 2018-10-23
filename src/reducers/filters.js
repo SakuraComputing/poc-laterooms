@@ -1,7 +1,6 @@
 const filtersReducerDefaultState = {
     text: ''
 };
-
 export default (state = filtersReducerDefaultState, action) => {
     switch (action.type) {
         case 'SET_TEXT_FILTER':
@@ -9,7 +8,13 @@ export default (state = filtersReducerDefaultState, action) => {
                 ...state,
                 text: action.text
             };
+        case 'SORT_BY_STAR_RATING':  
+            return {
+                ...state,
+                sortBy: action.sortBy
+            };
         default:
             return state;
     }
 }
+
