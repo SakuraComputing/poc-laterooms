@@ -26,7 +26,7 @@ export class HotelListFilters extends Component {
                   value={this.props.filters.sortBy}
                   onChange={this.onSortChange}
           >
-            <option value="">Any</option>
+            <option value="">Star Rating</option>
             <option value="Asc">Asc</option>
             <option value="Desc">Desc</option>
           </select>

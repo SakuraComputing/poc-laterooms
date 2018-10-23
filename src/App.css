@@ -37,7 +37,7 @@ h1 {
 
 .select {
   height: 40px;
-  width: 100px;
+  width: 150px;
   margin-left: 20px;
   border: solid 1px purple;
   font-size: 100%;
@@ -54,7 +54,8 @@ h1 {
   margin-bottom: 20px;
   background-color: indigo;
   border-radius: 10px;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
+  padding-left:20px;
 }
 
 @keyframes App-logo-spin {
