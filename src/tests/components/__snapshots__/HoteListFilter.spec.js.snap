@@ -38,7 +38,7 @@ ShallowWrapper {
           <option
             value=""
           >
-            Any
+            Star Rating
           </option>
           <option
             value="Asc"
@@ -79,7 +79,7 @@ ShallowWrapper {
             <option
               value=""
             >
-              Any
+              Star Rating
             </option>,
             <option
               value="Asc"
@@ -103,11 +103,11 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "children": "Any",
+              "children": "Star Rating",
               "value": "",
             },
             "ref": null,
-            "rendered": "Any",
+            "rendered": "Star Rating",
             "type": "option",
           },
           Object {
@@ -160,7 +160,7 @@ ShallowWrapper {
             <option
               value=""
             >
-              Any
+              Star Rating
             </option>
             <option
               value="Asc"
@@ -201,7 +201,7 @@ ShallowWrapper {
               <option
                 value=""
               >
-                Any
+                Star Rating
               </option>,
               <option
                 value="Asc"
@@ -225,11 +225,11 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
-                "children": "Any",
+                "children": "Star Rating",
                 "value": "",
               },
               "ref": null,
-              "rendered": "Any",
+              "rendered": "Star Rating",
               "type": "option",
             },
             Object {

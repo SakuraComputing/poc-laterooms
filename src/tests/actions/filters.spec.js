@@ -1,4 +1,4 @@
-import { setTextFilter, sortByStarRating } from "../../actions/filters";
+import { setTextFilter, sortByStarRating, setHotelByFacility } from "../../actions/filters";
 
 describe('filter action object', () => {
     it('should setup the filter object', () => {
@@ -14,5 +14,11 @@ describe('filter action object', () => {
             sortBy: 'Asc'
         })
     });
-    
+    it('should filter by Facility', () => {
+        const action = setHotelByFacility('pool');
+        expect(action).toEqual = ({
+            typr: 'SET_HOTEL_BY_FACILITY',
+            facility: 'pool'
+        })
+    })
 })
