@@ -1,7 +1,7 @@
 const filtersReducerDefaultState = {
     text: '',
     sortBy: '',
-    facility: ''
+    facility: []
 };
 export default (state = filtersReducerDefaultState, action) => {
     switch (action.type) {

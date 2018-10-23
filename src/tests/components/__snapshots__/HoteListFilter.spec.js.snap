@@ -51,7 +51,54 @@ ShallowWrapper {
             Desc
           </option>
         </select>,
+        <div
+          className="facilities-group"
+        >
+          <label>
+            Facilities
+          </label>
+          <input
+            className="facilities-checkbox"
+            id="carpark"
+            onChange={[Function]}
+            type="checkbox"
+            value="car park"
+          />
+          <label
+            className=""
+            htmlFor="carpark"
+          >
+            Car Park
+          </label>
+          <input
+            className="facilities-checkbox"
+            id="pool"
+            onChange={[Function]}
+            type="checkbox"
+            value="pool"
+          />
+          <label
+            className=""
+            htmlFor="pool"
+          >
+            Pool
+          </label>
+          <input
+            className="facilities-checkbox"
+            id="gym"
+            onChange={[Function]}
+            type="checkbox"
+            value="gym"
+          />
+          <label
+            className=""
+            htmlFor="gym"
+          >
+            Gym
+          </label>
+        </div>,
       ],
+      "className": "filter-header",
     },
     "ref": null,
     "rendered": Array [
@@ -137,6 +184,157 @@ ShallowWrapper {
         ],
         "type": "select",
       },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <label>
+              Facilities
+            </label>,
+            <input
+              className="facilities-checkbox"
+              id="carpark"
+              onChange={[Function]}
+              type="checkbox"
+              value="car park"
+            />,
+            <label
+              className=""
+              htmlFor="carpark"
+            >
+              Car Park
+            </label>,
+            <input
+              className="facilities-checkbox"
+              id="pool"
+              onChange={[Function]}
+              type="checkbox"
+              value="pool"
+            />,
+            <label
+              className=""
+              htmlFor="pool"
+            >
+              Pool
+            </label>,
+            <input
+              className="facilities-checkbox"
+              id="gym"
+              onChange={[Function]}
+              type="checkbox"
+              value="gym"
+            />,
+            <label
+              className=""
+              htmlFor="gym"
+            >
+              Gym
+            </label>,
+          ],
+          "className": "facilities-group",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Facilities",
+            },
+            "ref": null,
+            "rendered": "Facilities",
+            "type": "label",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "facilities-checkbox",
+              "id": "carpark",
+              "onChange": [Function],
+              "type": "checkbox",
+              "value": "car park",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Car Park",
+              "className": "",
+              "htmlFor": "carpark",
+            },
+            "ref": null,
+            "rendered": "Car Park",
+            "type": "label",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "facilities-checkbox",
+              "id": "pool",
+              "onChange": [Function],
+              "type": "checkbox",
+              "value": "pool",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Pool",
+              "className": "",
+              "htmlFor": "pool",
+            },
+            "ref": null,
+            "rendered": "Pool",
+            "type": "label",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "facilities-checkbox",
+              "id": "gym",
+              "onChange": [Function],
+              "type": "checkbox",
+              "value": "gym",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Gym",
+              "className": "",
+              "htmlFor": "gym",
+            },
+            "ref": null,
+            "rendered": "Gym",
+            "type": "label",
+          },
+        ],
+        "type": "div",
+      },
     ],
     "type": "div",
   },
@@ -173,7 +371,54 @@ ShallowWrapper {
               Desc
             </option>
           </select>,
+          <div
+            className="facilities-group"
+          >
+            <label>
+              Facilities
+            </label>
+            <input
+              className="facilities-checkbox"
+              id="carpark"
+              onChange={[Function]}
+              type="checkbox"
+              value="car park"
+            />
+            <label
+              className=""
+              htmlFor="carpark"
+            >
+              Car Park
+            </label>
+            <input
+              className="facilities-checkbox"
+              id="pool"
+              onChange={[Function]}
+              type="checkbox"
+              value="pool"
+            />
+            <label
+              className=""
+              htmlFor="pool"
+            >
+              Pool
+            </label>
+            <input
+              className="facilities-checkbox"
+              id="gym"
+              onChange={[Function]}
+              type="checkbox"
+              value="gym"
+            />
+            <label
+              className=""
+              htmlFor="gym"
+            >
+              Gym
+            </label>
+          </div>,
         ],
+        "className": "filter-header",
       },
       "ref": null,
       "rendered": Array [
@@ -258,6 +503,157 @@ ShallowWrapper {
             },
           ],
           "type": "select",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <label>
+                Facilities
+              </label>,
+              <input
+                className="facilities-checkbox"
+                id="carpark"
+                onChange={[Function]}
+                type="checkbox"
+                value="car park"
+              />,
+              <label
+                className=""
+                htmlFor="carpark"
+              >
+                Car Park
+              </label>,
+              <input
+                className="facilities-checkbox"
+                id="pool"
+                onChange={[Function]}
+                type="checkbox"
+                value="pool"
+              />,
+              <label
+                className=""
+                htmlFor="pool"
+              >
+                Pool
+              </label>,
+              <input
+                className="facilities-checkbox"
+                id="gym"
+                onChange={[Function]}
+                type="checkbox"
+                value="gym"
+              />,
+              <label
+                className=""
+                htmlFor="gym"
+              >
+                Gym
+              </label>,
+            ],
+            "className": "facilities-group",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Facilities",
+              },
+              "ref": null,
+              "rendered": "Facilities",
+              "type": "label",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "facilities-checkbox",
+                "id": "carpark",
+                "onChange": [Function],
+                "type": "checkbox",
+                "value": "car park",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Car Park",
+                "className": "",
+                "htmlFor": "carpark",
+              },
+              "ref": null,
+              "rendered": "Car Park",
+              "type": "label",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "facilities-checkbox",
+                "id": "pool",
+                "onChange": [Function],
+                "type": "checkbox",
+                "value": "pool",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Pool",
+                "className": "",
+                "htmlFor": "pool",
+              },
+              "ref": null,
+              "rendered": "Pool",
+              "type": "label",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "facilities-checkbox",
+                "id": "gym",
+                "onChange": [Function],
+                "type": "checkbox",
+                "value": "gym",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Gym",
+                "className": "",
+                "htmlFor": "gym",
+              },
+              "ref": null,
+              "rendered": "Gym",
+              "type": "label",
+            },
+          ],
+          "type": "div",
         },
       ],
       "type": "div",
