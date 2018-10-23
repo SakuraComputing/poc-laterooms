@@ -1,4 +1,4 @@
-import { addHotel } from '../../actions/hotels';
+import { addHotel, setHotels } from '../../actions/hotels';
 import hotels from '../../fixtures/hotels';
 
 describe('hotel action object', () => {
@@ -7,6 +7,13 @@ describe('hotel action object', () => {
         expect(action).toEqual({
             type: 'ADD_HOTEL',
             hotel: hotels[2]
+        })
+    })
+    it('should setup the set hotel action object with data', () => {
+        const action = setHotels(hotels);
+        expect(action).toEqual({
+            type: 'SET_HOTELS',
+            hotels
         })
     })
 })
