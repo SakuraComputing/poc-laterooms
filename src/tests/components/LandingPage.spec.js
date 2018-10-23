@@ -1,6 +1,6 @@
 import { shallow } from 'enzyme';
 import React from 'react';
-import LandingPage from '../components/LandingPage.js'
+import LandingPage from '../../components/LandingPage.js'
 
 describe('landing page component', () => {
 
