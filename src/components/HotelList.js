@@ -1,6 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import HotelListItem from './HotelListItem';
+import selectHotels from './../selectors/hotels';
 
 export const HotelList = (props) => {
     return (
@@ -13,7 +14,7 @@ export const HotelList = (props) => {
 }
 const mapStateToProps = (state) => {
     return {
-        hotels: state.hotels
+        hotels: selectHotels(state.hotels, state.filters)
     };
 }
 

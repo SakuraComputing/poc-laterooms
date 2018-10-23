@@ -7,7 +7,7 @@ Redux
 Jest
 Enzyme
 
-The application is very simple one and I have tried to demonstrate what I could do quickly but well within the desired time.
+The application is very simple one and I have tried to demonstrate what I could do quickly but well within the desired time.  I have tried to lay the project out in an intuitive way so that other developers could find things quickly.
 
 ## Quickstart
 
