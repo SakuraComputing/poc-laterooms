@@ -1,4 +1,4 @@
-import { addHotel } from '../components/hotels';
+import { addHotel } from '../../actions/hotels';
 import hotels from '../../fixtures/hotels';
 
 describe('hotel action object', () => {
