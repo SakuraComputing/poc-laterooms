@@ -28,6 +28,11 @@ describe('Filters Reducer', () => {
         };
         const state = filtersReducer(currentState, action);
         expect(state.sortBy).toBe('Desc');
-    
     })
+    it('should set the hotels for the given facility',() => {
+        const state = filtersReducer( undefined, { 
+            type: 'SET_HOTEL_BY_FACILITY', 
+            facility: 'test'});
+        expect(state.facility).toBe('test')
+    });
 })

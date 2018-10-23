@@ -1,5 +1,7 @@
 const filtersReducerDefaultState = {
-    text: ''
+    text: '',
+    sortBy: '',
+    facility: ''
 };
 export default (state = filtersReducerDefaultState, action) => {
     switch (action.type) {
@@ -13,6 +15,11 @@ export default (state = filtersReducerDefaultState, action) => {
                 ...state,
                 sortBy: action.sortBy
             };
+        case 'SET_HOTEL_BY_FACILITY':
+        return {
+            ...state,
+            facility: action.facility
+        }
         default:
             return state;
     }

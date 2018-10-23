@@ -8,7 +8,7 @@ export const sortByStarRating = (sortBy = '') => ({
     sortBy
 });
 export const setHotelByFacility = (facility = '') => ({
-    type: 'SORT_BY_STAR_RATING',
+    type: 'SET_HOTEL_BY_FACILITY',
     facility
 });
 
