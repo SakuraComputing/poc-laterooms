@@ -19,5 +19,13 @@ describe('Hotel reducer', () => {
         const state = hotelReducer(hotels, action);
         expect(state).toEqual([...hotels, hotel]);
     });
+    it('should set the hotel data', () => {
+        const action = {
+            typee: 'SET_HOTELS',
+            hotels
+        };
+        const state = hotelReducer(hotels, action);
+        expect(state).toEqual(hotels);
+    })
 })
 
