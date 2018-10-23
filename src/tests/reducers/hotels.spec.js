@@ -21,7 +21,7 @@ describe('Hotel reducer', () => {
     });
     it('should set the hotel data', () => {
         const action = {
-            typee: 'SET_HOTELS',
+            type: 'SET_HOTELS',
             hotels
         };
         const state = hotelReducer(hotels, action);

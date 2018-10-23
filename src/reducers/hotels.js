@@ -7,6 +7,8 @@ export default (state = hotelReducerDefaultState, action) => {
                 ...state,
                 action.hotel
             ];
+        case 'SET_HOTELS':
+            return action.hotels;
         default:
             return state;
     }
