@@ -1,10 +1,7 @@
 export default (hotels, { text, sortBy, facility }) => {
     return hotels.filter((hotel) => {
         if(facility.length > 0) {
-            let txtfacilities;
-            for (const iterator of facility) {
-                txtfacilities = hotel.facilities.includes(iterator);
-            }
+            let txtfacilities = hotelHasFacility(hotel.facilities, facility);
             const textMatch = hotel.name.toLowerCase().includes(text.toLowerCase());
             return txtfacilities && textMatch;
         } else {
@@ -19,3 +16,9 @@ export default (hotels, { text, sortBy, facility }) => {
         }
     });
 };
+
+function hotelHasFacility (hoteFacilities, facility) {
+        return facility.every(value => {return (hoteFacilities.indexOf(value) >= 0);
+    });
+}
+  
